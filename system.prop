@@ -1,0 +1,13 @@
+# Platform
+ro.hardware=mt6878
+ro.board.platform=mt6878
+
+# Build fingerprint (vendor build, Android 14 vendor base)
+ro.build.fingerprint=Infinix/X6870-OP/Infinix-X6870:14/UP1A.231005.007/251217V654:user/release-keys
+
+# USB
+sys.usb.controller=11201000.usb0
+sys.usb.configfs=1
+
+# Recovery UI
+ro.recovery.ui.margin_height=126
