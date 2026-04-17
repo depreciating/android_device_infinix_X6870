@@ -65,6 +65,15 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
 
+PRODUCT_PACKAGES += \
+    otapreopt_script \
+    cppreopts.sh
+
+PRODUCT_PROPERTY_OVERRIDES += ro.twrp.vendor_boot=true
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
