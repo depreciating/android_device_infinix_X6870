@@ -191,3 +191,6 @@ TW_EXCLUDE_APEX := true
 
 # Override SystemSDK version to match vendor API level
 BOARD_SYSTEMSDK_VERSIONS := 32
+
+# Hack depends
+ALLOW_MISSING_DEPENDENCIES := true
