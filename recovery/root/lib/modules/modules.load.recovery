@@ -1,5 +1,6 @@
 bootprof.ko
 mrdump.ko
+adaptive-ts.ko
 aee_aed.ko
 aee_hangdet.ko
 monitor_hang.ko
