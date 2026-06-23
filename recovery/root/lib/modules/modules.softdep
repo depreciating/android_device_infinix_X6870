@@ -4,4 +4,5 @@ softdep clkbuf pre: mt6685-core
 softdep mtk_dvfsrc post: mtk-dvfsrc-regulator
 softdep mtk_dvfsrc post: mtk-dvfsrc-devfreq
 softdep mtk_dvfsrc post: mtk-emi
+softdep tran_ufshcd_core pre: governor_simpleondemand
 softdep mt6878_dcm pre:mtk_dcm.ko
