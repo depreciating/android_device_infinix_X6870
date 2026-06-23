@@ -153,18 +153,18 @@ BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
-    init_boot \
-    vendor_boot \
     dtbo \
-    vbmeta \
-    vbmeta_system \
-    vbmeta_vendor \
+    lk \
+    odm \
+    odm_dlkm \
+    product \
     system \
     system_ext \
+    vbmeta_system \
+    vbmeta_vendor \
     vendor \
-    product \
-    odm_dlkm \
-    vendor_dlkm \
+    vendor_boot \
+    vendor_dlkm
 
 # Virtual A/B
 BOARD_VIRTUAL_AB_ENABLE := true
