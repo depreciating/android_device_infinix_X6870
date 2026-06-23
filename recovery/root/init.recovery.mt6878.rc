@@ -1,4 +1,4 @@
-import /init.recovery.project.rc
+import /init.recovery.usb.rc
 
 on init
     setprop sys.usb.configfs 1
